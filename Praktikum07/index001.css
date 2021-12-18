@@ -1,0 +1,33 @@
+.flex-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+	
+  }
+
+.flex-item{
+    flex-grow: 1;
+    height: 150px;
+    border: 2px solid black;
+}
+  
+  .flex-item:nth-child(1) {
+    background-color: sandybrown;
+	align-items: center;
+  }
+  
+  .flex-item:nth-child(2) {
+    background-color: red;
+  }
+  
+  .flex-item:nth-child(3) {
+    background-color: sienna;
+  }
+  
+  .flex-item:nth-child(4) {
+    background-color: green;
+  }
+  
+  .flex-item:nth-child(5) {
+    background-color: blue;
+  }

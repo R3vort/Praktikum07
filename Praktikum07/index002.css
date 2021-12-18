@@ -1,0 +1,31 @@
+.container{
+  display: grid;
+  grid-template-rows: 100px 500px 100px;
+  grid-template-columns: 200px 500px 300px;
+  grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+  grid-gap: .75em;
+}
+
+header{
+    grid-area: header;
+    background-color: teal;
+}
+nav{
+    grid-area: nav;
+    background-color: tomato;
+}
+main{
+    grid-area: main;
+    background-color: lightblue;
+}
+aside{
+    grid-area: aside;
+    background-color: orange;
+}
+footer{
+    grid-area: footer;
+    background-color: lightgreen;
+}
